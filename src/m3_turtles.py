@@ -88,10 +88,11 @@ matt.forward(60)
 #   As always, test by running the module.
 #
 ########################################################################
-alex = rg.SimpleTurtle()
-alex.pen =rg.Pen('green',10)
-alex.speed = 10
-alex.right(90)
+
+matt.pen = rg.Pen('green',10)
+matt.speed = 10
+matt.right(90)
+matt.forward(40)
 #################################
 # #######################################
 #
@@ -113,6 +114,13 @@ alex.right(90)
 #   As always, test by running the module.
 #
 ########################################################################
+alex = rg.SimpleTurtle('turtle')
+alex.pen = rg.Pen('red', 10)
+alex.speed = 30
+alex.left(90)
+alex.forward(40)
+
+
 
 ########################################################################
 #
